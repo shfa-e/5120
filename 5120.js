@@ -98,6 +98,7 @@ document.addEventListener("keyup", (e) => {
         slideDown();
         setTwo()
     }
+    document.getElementById("score").innerText = score;
 })
 
 function filterZero(row){
