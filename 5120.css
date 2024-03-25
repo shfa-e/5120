@@ -14,6 +14,12 @@
 body{
     font-family: "DM Serif Display";
     text-align: center;
+    background-color: #e0e0e0;
+    color: black;
+}
+
+h1{
+    font-size: 54px;
 }
 
 hr{
