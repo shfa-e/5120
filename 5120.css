@@ -1,0 +1,100 @@
+.dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+body{
+    font-family: "DM Serif Display";
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+}
+
+#board{
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x5{
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x10{
+    background-color: #F3BE95;
+    color: #727371;
+}
+
+.x20{
+    background-color: #F89B29;
+    color: white;
+}
+
+.x40{
+    background-color: #F98934;
+    color: white;
+}
+
+.x80{
+    background-color: #FA753F;
+    color: white;
+}
+
+.x160{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x320{
+    background-color: #FB604B;
+    color: white;
+}
+
+.x640{
+    background-color: #FC4B58;
+    color: white;
+}
+
+.x1280{
+    background-color: #FD3664;
+    color: white;
+}
+
+.x2560{
+    background-color: #FE2170;
+    color: white;
+}
+
+.x5120{
+    background-color: #FF0F7B;
+    color: white;
+}

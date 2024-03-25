@@ -1,0 +1,4 @@
+
+var board;
+var score;
+
